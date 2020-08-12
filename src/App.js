@@ -10,6 +10,7 @@ import {
   Switch
 } from 'react-router-dom';
 import HomeContainer from './containers/HomeContainer';
+import Home from './components/core/Home';
 
 class App extends React.Component {
   render() {

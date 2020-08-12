@@ -2,23 +2,15 @@ import React from 'react';
 
 
 class Home extends React.Component {
-    constructor(state){
-        super(state)
-
-        this.state = {
-            cities: [],
-        }
-    }
 
     render() {
         return(
             <div>
-               Hello world
+               <h1>Hello World</h1>
+               {/* {this.props.cities} */}
             </div>
         )
     }
 };
-
-
 
 export default Home;
